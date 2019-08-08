@@ -38,7 +38,7 @@ a:hover {
 footer {
     font-size: .7em;
     font-style: italic;
-    text-decoration: underline;
+    text-decoration: none;
     left: 0;
     right: 0;
     text-align: center;

@@ -1,0 +1,147 @@
+body {
+    line-height: 1.4em;
+    font-family: 'Inconsolata', andale mono, Lucida console, monospace;
+    font-size: 1em;
+    background-color: white;
+    color: black;
+    margin: 10% 7% 10% 7%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: line-through;
+}
+
+.return {
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    font-size: 1.5em;
+    color: #61DBF7;
+    border-color: #AB64F6;
+    border-style: solid;
+    padding: 0 30px 0 30px;
+}
+
+.return p {
+    text-align: left;
+}
+
+.return:hover {
+    color: #AB64F6;
+    border-color: #61DBF7;
+    text-decoration: line-through;
+}
+
+.shorts {
+    background-color: black;
+    color: white;
+    margin-right: 34%;
+    font-size: .8em;
+}
+
+.art {
+    margin: 1%;
+}
+
+.art img {
+    max-height: 600px;
+    max-width: 600px;
+    display: inline-flex;
+    padding: 45px;
+}
+
+/* responsiveness */
+
+@media screen and (max-width: 320px) {
+    .return {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .art img {
+        padding: 30px;
+    }
+    
+    .return {
+        background: white;
+        right: 35%;
+        
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .art img {
+        max-width: 85%;
+    }
+    
+    .return {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .art img {
+        max-width: 400px;
+        max-height: 550px;
+        padding: 25px;
+    }
+    
+    .return {
+        padding: 0 20px 0 20px;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .art img {
+        max-width: 450px;
+        padding: 20px;
+    }
+    
+    .return {
+        padding: 0 20px 0 20px;
+        right: 100%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .art img {
+        padding: 40px;
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    .art img {
+        max-width: 700px;
+        max-height: 800px;
+    }
+    
+    .return {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .art img {
+        max-width: 800px;
+        max-height: 1000px;
+        padding: 60px;
+    }
+    
+    .return {
+        font-size: 3em;
+    }
+}
+.signoff {
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 20px;
+    color: #3cdebb;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+}
